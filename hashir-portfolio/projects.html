@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>HASHIR — Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+<link rel="stylesheet" href="assets/css/style.css" />
+<link rel="icon" href="assets/img/HR logo.png">
+
+</head>
+<body>
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a class="logo" href="index.html" aria-label="Go to Home">HASHIR</a>
+
+    <!-- Mobile menu button -->
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </button>
+
+    <!-- Nav links -->
+    <nav class="nav" data-nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+
+<main>
+  <section class="section" data-aos="fade-up">
+    <div class="container">
+      <h1 class="page-title">Projects</h1>
+      <p class="lead">Selected work. Each card animates into view as you scroll.</p>
+      <div class="projects-grid">
+        <!-- Project Card 1 -->
+        <article class="project-card" data-aos="fade-up">
+          <img src="assets/img/portrait-placeholder.jpg" alt="Project thumbnail">
+          <div class="project-content">
+            <h3>Project One</h3>
+            <p>Short description of the project. What it does and what you contributed.</p>
+          </div>
+        </article>
+        <!-- Project Card 2 -->
+        <article class="project-card" data-aos="fade-up" data-aos-delay="75">
+          <img src="assets/img/portrait-placeholder.jpg" alt="Project thumbnail">
+          <div class="project-content">
+            <h3>Project Two</h3>
+            <p>Short description of the project. Tools, stack, or design focus.</p>
+          </div>
+        </article>
+        <!-- Project Card 3 -->
+        <article class="project-card" data-aos="fade-up" data-aos-delay="150">
+          <img src="assets/img/portrait-placeholder.jpg" alt="Project thumbnail">
+          <div class="project-content">
+            <h3>Project Three</h3>
+            <p>Brief context, your role, and the outcome.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <h4 class="footer-title">HASHIR</h4>
+      <p class="muted">Front-end developer • Graphic designer • Photo & video editor</p>
+    </div>
+    <div class="quick-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="socials">
+      <a href="#" aria-label="GitHub" class="icon-link">
+        <!-- GitHub SVG -->
+        <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M12 .5a12 12 0 0 0-3.79 23.4c.6.11.82-.26.82-.58v-2.03c-3.35.73-4.06-1.6-4.06-1.6-.55-1.38-1.34-1.75-1.34-1.75-1.09-.75.08-.73.08-.73 1.2.09 1.84 1.23 1.84 1.23 1.07 1.83 2.8 1.3 3.49.99.11-.78.42-1.3.76-1.6-2.67-.3-5.47-1.34-5.47-5.96 0-1.32.47-2.39 1.23-3.23-.12-.3-.53-1.52.12-3.17 0 0 1-.32 3.28 1.23a11.4 11.4 0 0 1 5.97 0c2.28-1.55 3.28-1.23 3.28-1.23.65 1.65.24 2.87.12 3.17.76.84 1.23 1.91 1.23 3.23 0 4.63-2.8 5.65-5.48 5.95.43.37.81 1.1.81 2.23v3.3c0 .32.22.7.82.58A12 12 0 0 0 12 .5Z"/></svg>
+      </a>
+      <a href="#" aria-label="LinkedIn" class="icon-link">
+        <!-- LinkedIn SVG -->
+        <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M19 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2ZM8.34 18.34H6V9.75h2.34v8.59ZM7.17 8.66A1.36 1.36 0 1 1 7.2 6a1.36 1.36 0 0 1-.03 2.66Zm11.17 9.68h-2.33v-4.67c0-1.11-.02-2.54-1.55-2.54-1.55 0-1.79 1.21-1.79 2.46v4.75H10V9.75h2.24v1.17h.03c.31-.59 1.06-1.21 2.18-1.21 2.33 0 2.76 1.53 2.76 3.52v5.11Z"/></svg>
+      </a>
+      <a href="#" aria-label="Twitter" class="icon-link">
+        <!-- Twitter/X SVG -->
+        <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M18.244 2h3.308l-7.227 8.26L22 22h-6.59l-5.157-6.72L4.19 22H.88l7.73-8.84L2 2h6.72l4.66 6.18L18.244 2Zm-1.157 18h1.835L7.01 3.91H5.06L17.087 20Z"/></svg>
+      </a>
+    </div>
+  </div>
+  <div class="container sub-footer">
+    <p>© <span id="year"></span> HASHIR. All rights reserved.</p>
+  </div>
+</footer>
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>
